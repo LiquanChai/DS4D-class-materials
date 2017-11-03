@@ -1,0 +1,46 @@
+data types by comparision:
+categorical not compariable: colors, symbols
+ordered caompariable but no quantifiable difference: size
+numercial: caompariable with quantifiables difference
+
+data types by content:
+sets, time, tree and networks, geographical, text
+
+visual variables:
+visual marks, visual attributes (size shape color/hue)
+
+statistical graphs (structured data)
+more complex visualizations (semi/un-structured data):
+networks, tree, time series, geographical, text
+
+data and visualization:
+structured data: item, attributes, cell (1D, 2D, Multidimensional, e.g. many columns)
+1D 
+- table with 1 columns (x, y) (line charts/trends, histograms/distribution)
+univariate distribution (e.g. uniform, normal, bi-modal, exponential)
+
+Multivarable data
+- regressionplot with marks (3D), scatterplot with color (3D), scatterplot matrix,
+parallel coordinates plot (it clearly shows correlations of dimensions)
+
+semi-structured data: 
+networks
+- node, link, path (directional), cluster, star (chunk), hub
+- matrix (row, col - defines nodes; coordinates defines link; mark and hue - defines link length)
+
+trees
+tree hierarcical data,
+treemap hierarcical - devided area
+
+time series
+gantt charts, stream graph, temporal heatmap (date data, e.g. gitcommit), scatterplot with animation (small multiples),
+connected scatter plot (x, y, time series - connected dots)
+
+geographical
+point plot (with color), optimization -> distortion, traces (with time)
+
+unstructed data:
+text
+text clouds (frequency of words -: scale of text hard to be precise)
+text heatmap
+sparklines(mini graph embeded in text)
